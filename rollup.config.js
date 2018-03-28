@@ -1,4 +1,4 @@
-import buble from 'rollup-plugin-buble'
+import babel from 'rollup-plugin-babel'
 import butternut from 'rollup-plugin-butternut'
 
 import pkg from './package.json'
@@ -20,5 +20,10 @@ export default {
       sourcemap: true,
     },
   ],
-  plugins: [buble(), !isTest && butternut()],
+  plugins: [
+    babel({
+      exclude: 'node_modules/**',
+    }),
+    !isTest && butternut(),
+  ],
 }
