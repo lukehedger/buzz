@@ -62,5 +62,9 @@
     "rollup": "^0.57.1",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-butternut": "^0.1.0"
+  },
+  "dependencies": {
+    "buffer": "^5.1.0",
+    "node-fetch": "^2.1.2"
   }
 }
