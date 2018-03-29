@@ -1,6 +1,6 @@
 {
   "name": "@web3/buzz",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Swarm JavaScript API",
   "main": "dist/buzz.js",
   "module": "dist/buzz.mjs",
