@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buzz :: Buzz Should initialise Buzz class object with options 1`] = `
+Buzz {
+  "options": Object {
+    "provider": "http://localhost:8500",
+    "schemeType": "LONG",
+  },
+}
+`;
+
+exports[`buzz :: Buzz Should update options object with new options 1`] = `
+Object {
+  "provider": "http://localhost:8500",
+  "schemeType": "LONG",
+}
+`;
