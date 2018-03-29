@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buzz :: download Should download content at Swarm hash 1`] = `"buzz"`;
+
+exports[`buzz :: download Should throw an error if Swarm provider not set 1`] = `"Swarm node provider not set. Use \`buzz.setProvider\` to set the Swarm provider."`;
