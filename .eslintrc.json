@@ -8,6 +8,9 @@
   "extends": [
     "eslint:recommended"
   ],
+  "globals": {
+    "jest": true
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
