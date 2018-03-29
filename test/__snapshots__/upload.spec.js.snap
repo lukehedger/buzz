@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buzz :: upload Should throw an error if Swarm provider not set 1`] = `"Swarm node provider not set. Use \`buzz.setProvider\` to set the Swarm provider."`;
+
+exports[`buzz :: upload Should upload content to Swarm 1`] = `"f070f4f87c0018a4026ff2c14895e9ef525e81c4cf4d768e1bf658e570927a13"`;
