@@ -28,6 +28,9 @@
     "url": "https://github.com/web3/buzz/issues"
   },
   "homepage": "https://github.com/web3/buzz#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "lint-staged": {
     "*.js": [
       "eslint --fix \"lib/**/*.js\"",
